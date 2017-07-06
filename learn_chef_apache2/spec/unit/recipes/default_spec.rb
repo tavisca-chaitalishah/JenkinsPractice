@@ -17,4 +17,14 @@ describe 'learn_chef_apache2::default' do
       expect { chef_run }.to_not raise_error
     end
   end
+  end
+  
+  describe '1 plus 1' do
+  it 'equals 2' do
+    a = 1
+    b = 1
+    sum = a + b
+    expect(sum).to eq(2)
+    expect(sum).not_to eq(3)
+  end
 end
