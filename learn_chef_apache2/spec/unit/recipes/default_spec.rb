@@ -25,6 +25,6 @@ describe 'learn_chef_apache2::default' do
     b = 1
     sum = a + b
     expect(sum).to eq(2)
-    expect(sum).not_to eq(3)
+    expect(sum).to eq(3)
   end
 end
